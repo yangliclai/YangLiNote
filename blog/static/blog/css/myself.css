@@ -1,0 +1,29 @@
+	/* essential */
+	form-group.label {
+		float: left;
+		width: 6em;
+		text-align: right;
+		padding-right: 0.5em;
+	}
+
+	form-group.input, form-group.textarea {
+		text-align: left;
+		width: 20em;
+	}
+
+	/*input.submit {*/
+	/*	margin-left: 6.5em;*/
+	/*	width: auto;*/
+	/*}*/
+
+    /*Style ="padding-right: 10px"*/
+
+	/*example : if I want to get a vertical-align(middle) title with a textare ,how to do*/
+/*	.formfield * {*/
+/*  vertical-align: middle;*/
+/*	}  */
+/*	*/
+/*<p class="formfield">*/
+/*  <label for="textarea">Label for textarea</label>*/
+/*  <textarea id="textarea" rows="5">Textarea</textarea>*/
+/*</p>*/

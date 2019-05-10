@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Form without tables</title>
+<style type="text/css">
+	/* my added bits */
+	html, body {
+		margin: 0;
+		padding: 0.25em;
+		background: #fff;
+	}
+
+	form {
+		border: 1px solid #999;
+		padding: 0.25em;
+		background: #EEE;
+
+	}
+
+	div {
+		padding-bottom: 0.25em;
+	}
+
+	/* essential */
+	label {
+		float: left;
+		width: 6em;
+		text-align: right;
+		padding-right: 0.5em;
+	}
+
+	input, textarea {
+		text-align: left;
+		width: 20em;
+	}
+
+	input.submit {
+		margin-left: 6.5em;
+		width: auto;
+	}
+
+	/* additionally give the button and the labels
+	the same font to align the button better */
+
+	label, input.submit {
+		font: normal 0.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+</style>
+
+</head>
+<body>
+<form>
+        <div>
+                <label>Name:</label>
+                <input type="text" size="25" />
+        </div>
+        <div>
+                <label>Age:</label>
+                <input type="text" size="25" />
+        </div>
+        <div>
+                <label>Remarks:</label>
+                <textarea rows="10" cols="23" /></textarea>
+        </div>
+        <div>
+                <input type="submit" class="submit" name="submit" value="Easy like CSS" />
+        </div>
+</form>
+</body>
+</html>
